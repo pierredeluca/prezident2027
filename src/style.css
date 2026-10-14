@@ -1,0 +1,17 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background: #000;
+  color: #c8b090;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+canvas {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  touch-action: none;
+  background: #000;
+}
